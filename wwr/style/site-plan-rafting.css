@@ -10,7 +10,7 @@ Fonts are separated by a & */
   --primary-color: #3c548c   ;
   --secondary-color: #9cc4cf ;
   --accent1-color: #728489;
-  --accent2-color: #cdd3d7;
+  --accent2-color: white;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Josefin Slab";
