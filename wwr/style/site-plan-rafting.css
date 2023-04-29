@@ -7,25 +7,25 @@ Fonts are separated by a & */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #2c6cd4;
-  --secondary-color: #5a6c68;
-  --accent1-color: #d0a667;
-  --accent2-color: #4e92eb;
+  --primary-color: #0A1045;
+  --secondary-color: #00C2D1;
+  --accent1-color: #F9E900;
+  --accent2-color: #F6AF65;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Fredoka";
   --paragraph-font: 'Source Sans Pro', sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #2c6cd4;  /* headlines on a white background */ 
+  --headline-color-on-white: #0A1045;  /* headlines on a white background */ 
   --headline-color-on-color: white; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #2c6cd4; /* paragraph text on a white background */ 
+  --paragraph-color-on-white: #00C2D1; /* paragraph text on a white background */ 
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #2c6cd4;
+  --paragraph-background-color: #00C2D1;
   --nav-link-color: white;
-  --nav-background-color: #5a6c68;
-  --nav-hover-link-color: #d0a667;
-  --nav-hover-background-color: #2c6cd4;
+  --nav-background-color: #F6AF65;
+  --nav-hover-link-color: white;
+  --nav-hover-background-color: #F9E900;
 }
 
 
