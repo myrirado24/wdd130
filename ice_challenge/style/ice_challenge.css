@@ -10,20 +10,23 @@ body {
 
 .title {
     color: white;
+    font-size: 30px;
 }
 
 .quote_education {
     color: white;
+    font-size: 15px;
 }
 
 .author {
     color: white;
+    font-size: 20px;
 }
 
 .list {
     color: black;
     text-align: left;
-
+    font-size: 20px;
 }
 
 img {
@@ -32,11 +35,15 @@ img {
 
 .quotation {
     color:white;
+    font-size: 40px;
 }
-
-
 
 footer p {
     text-align: center;
     color: black;
+    font-size: 20px;
+    margin: 4px auto;
+}
+h1:hover{
+    color:black;
 }
