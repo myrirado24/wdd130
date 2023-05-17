@@ -101,6 +101,10 @@ footer a:hover {
     color: black;
 }
 
+footer p a.hover {
+    text-decoration: underline;
+}
+
 .icon {
     width: 80px;
 }
