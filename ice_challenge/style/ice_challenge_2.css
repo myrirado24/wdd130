@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+}
+
+.title {
+    width: 100%;
+}
+
+.circlebox {
+    background-color: grey;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+.circlebox img {
+    width: 20%;
+    border-radius: 50%;
+    border: 10px solid rgb(42, 42, 42);
+    margin: 5%;
+}
