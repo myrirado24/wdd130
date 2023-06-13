@@ -1,19 +1,32 @@
-@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Libre+Franklin&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+img {
+    width: 100%;
+}
+.card {
+    border-radius: 5px;
+}
 h1 {
     font-size: small;
-    font-family:'Libre Franklin', sans-serif;
+    font-family:'Roboto Slab', serif;
     color: #4244b2;
 }
 h2 {
-    font-family: 'Libre Franklin', sans-serif;
+    font-family: 'Roboto Slab', serif;
     color:#4244b2
 }
 p {
-    font-family: 'Libre Franklin', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    overflow: scroll;
 }
 body {
     max-width: 250px;
     text-align: center;
     margin: 0 auto;
+}
+footer{
+    
+}
+sub {
+    vertical-align: super;
+    font-size: small;
 }
