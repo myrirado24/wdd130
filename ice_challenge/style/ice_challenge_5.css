@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Libre+Franklin&display=swap');
+
+h1 {
+    font-size: small;
+    font-family:'Libre Franklin', sans-serif;
+    color: #4244b2;
+}
+h2 {
+    font-family: 'Libre Franklin', sans-serif;
+    color:#4244b2
+}
+p {
+    font-family: 'Libre Franklin', sans-serif;
+}
+body {
+    max-width: 250px;
+    text-align: center;
+    margin: 0 auto;
+}
