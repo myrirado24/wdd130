@@ -4,27 +4,38 @@ img {
 }
 .card {
     border-radius: 5px;
+    overflow: hidden;
 }
 h1 {
-    font-size: small;
+    font-size: .8em;
     font-family:'Roboto Slab', serif;
-    color: #4244b2;
+    color: #3f5b8a;
+    margin: 20px 0 0;
 }
 h2 {
     font-family: 'Roboto Slab', serif;
-    color:#4244b2
+    color:black;
+    text-align: center;
+    margin-top: 0;
 }
-p {
+.main p {
     font-family: 'Roboto Slab', serif;
-    overflow: scroll;
+    font-size: 1em;
+    line-height: 1.3em;
+    width: 80%;
 }
 body {
     max-width: 250px;
     text-align: center;
     margin: 0 auto;
 }
-footer{
-    
+.bottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #3f5b8a;
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    text-align: center;
 }
 sub {
     vertical-align: super;
