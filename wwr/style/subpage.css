@@ -8,6 +8,13 @@
     --heading-font: 'Amatic SC';
     --paragraph-font: 'Josefin Sans', sans-serif;
 }
+body {
+    background-color: var(--secondary-color);
+    font-family: var(--paragraph-font);
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
 header {
     background-color: var(--primary-color);
     display: grid;
@@ -16,7 +23,27 @@ header {
 .logo {
     width: 80px;
 }
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
 
+nav a {
+    text-align: center;
+    color: var(--accent1-color);
+    text-decoration: none;
+    padding: 35px;
+}
+
+nav a:hover {
+    background-color: var(--accent1-color);
+    color: var(--primary-color)
+}
 footer {
     background-color: var(--primary-color);
     color: var(--accent1-color);
