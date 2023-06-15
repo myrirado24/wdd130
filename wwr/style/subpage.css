@@ -44,6 +44,13 @@ nav a:hover {
     background-color: var(--accent1-color);
     color: var(--primary-color)
 }
+.blog-box {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+#blog-img {
+    width: 100%;
+}
 footer {
     background-color: var(--primary-color);
     color: var(--accent1-color);
