@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Darker+Grotesque:wght@300..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    background-color: #5ca1d7;
+}
+
+.main {
+    width: 450px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.title {
+    color: white;
+    font-size: 30px;
+    font-family: 'Darker Grotesque', sans-serif;
+}
+
+.quote1 {
+    color: white;
+    font-size: 15px;
+}
+
+.author {
+    color: white;
+    font-size: 20px;
+    font-family: 'Darker Grotesque', sans-serif;
+}
+
+.list {
+    color: black;
+    text-align: left;
+    font-size: 15px;
+    font-family: 'Darker Grotesque', sans-serif;
+}
+
+img {
+    width: 250px;
+}
+
+.quote2 {
+    color:white;
+    font-size: 50px;
+}
+
+footer h4 {
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    margin: 4px auto;
+    font-family: 'Rubik', sans-serif;
+}
+
+h1:hover{
+    color:black;
+}
