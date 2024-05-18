@@ -63,17 +63,17 @@ header {
 
 .book:hover {
     background-color: #8390FA;
-    color: #FAC748;
+    color: #F9E9EC;
 }
 
 .join {
-    background-color: #FAC748;
-    color: #8390FA;
+    background-color:#FAC748;
+    color: #1D2F6F;
     text-decoration: none;
 }
 
 .join:hover {
-    background-color: #8390FA;
+    background-color: #1D2F6F;
     color: #FAC748;
 }
 
@@ -86,12 +86,12 @@ header {
 }
 
 .msg p {
-    color: #1D2F6F;
+    color: #8390FA;
 }
 
 footer {
     background-color: #8390FA;
-    color: #F9E9EC;
+    color: #1D2F6F;
 }
 
 footer a {
