@@ -12,24 +12,30 @@ body {
     border-radius: 50%;
     border: 10px solid rgb(52, 50, 50);
     width: 20%;
+    margin: 0 auto;
     margin-left: 50px;
     margin-right: 50px;
+   
 }
 
 .graphic {
     border-radius: 50%;
     border: 10px solid rgb(52, 50, 50);
     width: 20%;
+    margin: 0 auto;
     margin-left: 50px;
     margin-right: 50px;
+    
 }
 
 .person {
     border-radius: 50%;
     border: 10px solid rgb(52, 50, 50);
     width: 20%;
+    margin: 0 auto;
     margin-left: 50px;
     margin-right: 50px;
+    
 }
 
 div {
