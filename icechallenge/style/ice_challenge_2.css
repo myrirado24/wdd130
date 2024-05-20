@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    display: block;
+}
+
+
+
+.desk {
+    border-radius: 50%;
+}
+
+.graphic {
+    border-radius: 50%;
+}
+
+.person {
+    border-radius: 50%;
+}
+
+div {
+    background-color: gray;
+    font-size: 0;
+}
