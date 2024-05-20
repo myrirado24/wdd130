@@ -1,23 +1,42 @@
 body {
     margin: 0;
     display: block;
+    font-size: 0;
 }
 
-
+.title {
+    width: 100%;
+}
 
 .desk {
     border-radius: 50%;
+    border: 10px solid rgb(52, 50, 50);
+    width: 20%;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .graphic {
     border-radius: 50%;
+    border: 10px solid rgb(52, 50, 50);
+    width: 20%;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .person {
     border-radius: 50%;
+    border: 10px solid rgb(52, 50, 50);
+    width: 20%;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 div {
     background-color: gray;
-    font-size: 0;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
 }
