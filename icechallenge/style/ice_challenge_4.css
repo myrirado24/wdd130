@@ -1,17 +1,18 @@
 body {
-    background-color: black;
+    background-color: white;
     border-radius: 5px;
 }
 
 .card {
     width: 250px;
     margin: 0 auto;
-    background-color: white;
 
 }
 
 .headerimage {
     width: 100%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
 }
 
 h2 {
@@ -31,30 +32,42 @@ h2 {
 
 .grid {
     display: grid;
-    grid-template-columns: 1fr, 1fr, 1fr;
+    grid-template-columns: 3fr;
+    grid-template-rows: 1fr;
     background-color:  rgba(61, 61, 197, 0.815);
     width: 250px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+
 }
 
 .box1 {
     text-align: center;
     grid-column: 1/2;
+    grid-row: 1/2;
     color: white;
 }
 
 .box2 {
     text-align: center;
     grid-column: 2/3;
+    grid-row: 1/2;
     color: white;
 }
 
 .box3 {
     text-align: center;
     grid-column: 3/4;
+    grid-row: 1/2;
     color: white;
 }
 
-sup {
+#middlediv {
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+
+sub {
     vertical-align: super;
     font-size: smaller;
 }
