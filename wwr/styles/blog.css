@@ -63,15 +63,42 @@ body {
     padding: 0;
 }
 
-h2 {
-    margin: 0;
-}
-
 header {
     background-color: #1D2F6F;
     display: grid;
     grid-template-columns: 150px auto;
 }
+
+#blog {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px;
+}
+
+#blog-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+
+#blog-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+}
+
+#blog-msg h1 {
+    text-align: center;
+}
+
+#blog-msg p {
+    text-align: center;
+}
+
+#blog-img {
+    width: 100%;
+}
+
 footer {
     background-color: #8390FA;
     color: #1D2F6F;
@@ -113,8 +140,4 @@ footer .social img {
     font-family: "Rowdies";
     font-size: 2em;
     margin-top: 10px;
-}
-
-h4 {
-    color: #1D2F6F;
 }
