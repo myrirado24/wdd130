@@ -67,6 +67,7 @@ nav a:hover {
     font-family: "Rowdies";
     font-size: 2em;
     margin-top: 10px;
+    text-align: center;
 }
 
 #blog-msg h1 {
