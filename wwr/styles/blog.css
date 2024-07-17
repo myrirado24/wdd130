@@ -15,6 +15,7 @@
 #content {
     max-width: 1600px;
     margin: 0 auto;
+    
 }
 
 nav {
@@ -63,20 +64,22 @@ nav a:hover {
 }
 
 .blog-title {
-    color: #8390FA;
+    color: #FAC748;
     font-family: "Rowdies";
     font-size: 2em;
     margin-top: 10px;
     text-align: center;
+    grid-column: 2/3;
+    grid-row: 2/3;
 }
 
 #blog-msg h1 {
-    text-align: center;
+    text-align: left;
     z-index: -1;
 }
 
-.blog-paragraph {
-    text-align: center;
+#blog-msg p{
+    text-align: left;
     color: #1D2F6F;
 }
 
