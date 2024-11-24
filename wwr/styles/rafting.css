@@ -12,8 +12,10 @@
     --paragraph-font: Urbanist, sans-serif;
 }
 
-
-
+nav {
+    font-family: var(--heading-font);
+    color: var(--secondary-color);
+}
 
 h1 {
     color: var(--primary-color);
@@ -52,12 +54,11 @@ p {
 .hero h1,
 .hero article {
     position: absolute;
-    color: var(--accent2-color);
  }
   
 .hero article img {
     float: right;
-    width: 100px;
+    width: 160px;
 }
   
 .hero article {
