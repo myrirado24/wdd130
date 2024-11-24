@@ -12,11 +12,65 @@
     --paragraph-font: Urbanist, sans-serif;
 }
 
-a {
+
+
+
+h1 {
+    color: var(--primary-color);
+    font-family: var(--heading-font);
+    position: absolute;
+}
+
+h2 {
+    color: var(--accent1-color);
+    font-family: var(--heading-font);
+}
+  
+p {
+    color: var(--primary-color);
+    font-family: var(--paragraph-font);
+}
+
+.hero article p {
+    color: var(--accent1-color);
+}
+
+.hero {
+    position: relative;
+    height: 500px;
+    width: 100%;
+    background-size: cover; 
+    background-position: center;
+}  
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+  
+.hero h1,
+.hero article {
+    position: absolute;
+    color: var(--accent2-color);
+ }
+  
+.hero article img {
+    float: right;
+    width: 100px;
+}
+  
+.hero article {
+    position: absolute;
+    background-color: var(--secondary-color);
+    padding: 20px;
+    color: var(--secondary-color);
+}
+
+.sociallinks a {
     text-decoration: none;
 }
 
-h1 {
-    color: var(--secondary-color);
-    font-family: var(--heading-font);
+.sociallinks img {
+    width: 60px;
 }
