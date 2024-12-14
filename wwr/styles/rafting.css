@@ -15,6 +15,7 @@
 nav {
     font-family: var(--heading-font);
     color: var(--primary-color);
+   
 }
 
 h1 {
@@ -74,4 +75,11 @@ p {
 
 .sociallinks img {
     width: 60px;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1/5;
+    grid-column-start: 2;
+    grid-column-end: 4;
 }
