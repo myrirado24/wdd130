@@ -94,7 +94,7 @@ body {
   
 .hero article p {
     margin-bottom: 10px;
-    content: var(--accent1-color);
+    color: var(--accent1-color);
     font-family: var(--paragraph-font);
 }
   
