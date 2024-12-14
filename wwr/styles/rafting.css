@@ -15,7 +15,7 @@
 header {
 	margin: 1rem auto;
 	display: grid;
-	grid-template-columns: 120px 1fr 1fr;
+	grid-template-columns: 1fr 1fr;
 	align-items: center;
 	border-bottom: 1px solid #ccc;
 	max-width: 1000px;
@@ -61,6 +61,10 @@ body {
 .hero {
     position: relative;
     overflow: hidden;
+    height: 500px;
+    width: 100%;
+    background-size: cover; 
+    background-position: center;
 }
   
 .hero img {
@@ -75,8 +79,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     font-family: var(--heading-font);
-    color: var(--primary-color);
-    font-size: 3em;
+    color: var(--accent1-color);
     text-align: center;
 }
   
@@ -97,7 +100,7 @@ body {
   
 .hero article img {
     float: right;
-    margin-left: 160px;
+    width: 160px;
 }
 
 .history {
@@ -145,7 +148,7 @@ body {
 }
 
 .adventures img {
-    width: 200px;
+    width: 180px;
     grid-row: 2;
 }
 
@@ -154,7 +157,8 @@ footer {
     grid-template-columns: 1fr 1fr;
     text-align: left;
     background-color: var(--secondary-color);
-    padding: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 
 footer.sociallinks a {
