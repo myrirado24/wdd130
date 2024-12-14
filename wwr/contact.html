@@ -26,9 +26,42 @@
                 <img src="images/" alt="contact banner">
                 <h1>Contact Us</h1>
                 <article>
-                    <h1>Address:</h1>
-                    <p></p>
+                    <h1>Phones:</h1>
+                    <p>(555) 555-5555</p>
+                    <p>(555) 555-5555</p>
+                    <h1>Emails:</h1>
+                    <p>waterrafting@gmail.com</p>
+                    <p>waterrafting2@gmail.com</p>
+                    <div class="map"> 
+                        <h1>Address:</h1>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6075.961069479789!2d-111.779474!3d40.409282!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x874d80ded5363bef%3A0xf90303286e154d5a!2s5051%20N%20Willowbank%20Dr%2C%20Highland%2C%20UT%2084003!5e0!3m2!1sen!2sus!4v1734147834102!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
                 </article>
+                <form action="your_email_address" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+            
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+            
+                    <label>Purpose of Message:</label>
+                    <input type="radio" id="generalInquiry" name="purpose" value="General Inquiry">
+                    <label for="generalInquiry">General Inquiry</label>
+                    <input type="radio" id="reservationQuestion" name="purpose" value="Reservation Question">
+                    <label for="reservationQuestion">Reservation Question</label>
+                    <input type="radio" id="websiteSuggestion" name="purpose" value="Website Suggestion">
+                    <label for="websiteSuggestion">Website Suggestion</label>
+            
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+            
+                    <label>
+                        <input type="checkbox" id="newsletter" name="newsletter">
+                        Please subscribe me to the monthly newsletter
+                    </label>
+            
+                    <button type="submit">Send Message</button>
+                </form>
             </div>
         </main>
         <footer>

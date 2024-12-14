@@ -52,72 +52,82 @@ header img {
 	font-weight: 700;
 	text-decoration: underline;
 }
-.hero {
-    position: relative;
-    height: 500px;
-    width: 100%;
-    background-size: cover; 
-    background-position: center;
-}
+
 
 .hero h1 {
-    color: var(--primary-color);
+    color: var(--accent1-color);
     font-family: var(--heading-font);
     position: absolute;
     text-align: center;
 }
-
-.hero article p {
-    color: var(--accent1-color);
+  
+p {
+    color: var(--paragraph-font);
+    font-family: var(--paragraph-font);
 }
-
+  
+body {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+  
+.hero {
+    position: relative;
+    overflow: hidden;
+}
+  
 .hero img {
     display: block;
     width: 100%;
     height: auto;
 }
   
-.hero article img {
-    float: right;
-    width: 160px;
+.hero h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--primary-color);
+    font-size: 3em;
+    text-align: center;
 }
   
 .hero article {
     position: absolute;
+    bottom: 20px;
+    left: 20px;
     background-color: var(--secondary-color);
     padding: 20px;
-    color: var(--secondary-color);
-}
-
-h2 {
     color: var(--accent1-color);
-    font-family: var(--heading-font);
-    display: grid;
-	grid-template-columns: 120px 1fr 1fr;
-    display: flex;
-    justify-content: center;
-    align-self: flex-end;
 }
   
-p {
-    color: var(--primary-color);
-    font-family: var(--paragraph-font);
-    display: flex;
-    align-items: flex-start;
+.hero article p {
+    margin-bottom: 10px;
 }
-
+  
+.hero article img {
+    float: right;
+    margin-left: 160px;
+}
 
 footer {
-    text-align: center;
+    background-color: var(--accent1-color);
+    padding: 20px;
 }
 
-footer.sociallinks a {
+.sociallinks {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.sociallinks a {
     text-decoration: none;
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
 }
 
-.sociallinks img {
-    width: 50px;
-    margin-left: 10px;
+.sociallinks a img {
+    width: 50PX;
+    display: flex;
+    justify-content: flex-end;
 }
